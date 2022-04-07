@@ -1,7 +1,11 @@
 @media (max-width: 1270px) {
+    .intro_inner{
+        margin-top: 179px;
+
+    }
     /*Ноут L*/
     .footer_inner {
-        padding: 32px 51px 20px;
+        padding: 32px 0 20px;
     }
 
     .footer_link .copyright {
@@ -37,8 +41,12 @@
     }
 
     /*intro**********************/
-    .intro_item {
-        margin-top: 147px;
+    .intro_wrapper{
+        padding-top: 37px;
+
+    }
+    .intro_title{
+        margin-bottom: 0;
     }
 
     .title {
@@ -46,14 +54,14 @@
     }
 
     .subtitle {
-        font-size: 38px;
-        margin-left: 36px;
-
+        font-size: 32px;
+        margin-left: 27px;
     }
 
     .text {
-        font-size: 20px;
-        margin-bottom: 39px;
+        font-size: 22px;
+        margin-bottom: 48px;
+
     }
 
     .button {
@@ -62,7 +70,7 @@
     }
 
     .intro_rec {
-        margin-top: 91px;
+        margin-top: 32px;
     }
 
     .intro_rec_title {
@@ -70,21 +78,15 @@
         margin-bottom: 14px;
     }
 
-    .rec_card_inner {
-        width: 138px;
-        height: 210px;
-    }
-
-
     .past_price {
         right: -3px;
         bottom: 31px;
     }
 
     .intro_img {
-        width: 743px;
-        right: 91px;
-        top: 32px;
+        width: 630px;
+        right: -235px;
+        top: 100px;
     }
 
     /*section**********************/
@@ -93,12 +95,17 @@
     }
 
     .content {
-        padding-top: 39px;
-
+        padding-top: 80px;
     }
 
     .content_subtitle:after {
         height: 1px;
+    }
+
+    /*card**********************/
+    .card_item{
+        margin-left: 16px;
+
     }
 
     /*nav**********************/
@@ -128,13 +135,14 @@
 
     /*catalog**********************/
     .catalog_item {
-        margin: 16px 0 0;
-        width: 23.5%;
+        margin: 20px 10px 0;
+        width: 21.5%;
     }
 
     .catalog_btm {
         margin: 34px auto 0;
-        padding-bottom: 61px;
+        padding-bottom: 27px;
+
     }
 
     .catalog_btm_link {
@@ -146,18 +154,20 @@
     /*footer**********************/
     .footer_link {
         font-size: 11px;
+        margin: 0 8px;
+
     }
 
     .copyright {
         padding-top: 14px;
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .footer_item {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     i {
-        font-size: 12px;
+        font-size: 14px;
     }
 
 }
@@ -185,11 +195,6 @@
         height: 177px;
     }
 
-    .intro_item {
-        margin-top: 96px;
-
-    }
-
     .subtitle {
         font-size: 30px;
         margin-left: 11px;
@@ -210,9 +215,9 @@
     }
 
     .intro_img {
-        width: 633px;
-        right: 137px;
-        top: -35px;
+        width: 607px;
+        right: 76px;
+        top: -117px;
     }
 
 
@@ -325,13 +330,9 @@
         font-size: 13px;
     }
 
-    .catalog_item {
-        width: 24%;
-    }
-
     /*footer*********************/
     .footer_inner{
-        padding: 25px 70px 11px;
+        padding: 25px 0 11px;
     }
     .footer_item {
         margin-bottom: 5px;
@@ -367,9 +368,6 @@
         background-size: 35%;
         min-height: 90vh;
     }
-    .intro_item {
-        margin-top: 99px;
-    }
 
     .subtitle {
         font-size: 24px;
@@ -397,9 +395,9 @@
 
     /*card*/
     .card_img {
-        padding: 17px 9px 0;
-        width: 212px;
-        height: 100px;
+        width: 577px;
+        right: -214px;
+        top: 92px;
     }
 
     .card_link {
@@ -435,11 +433,12 @@
 
     /*footer*/
     .footer_inner {
-        padding: 24px 31px 21px;
+        padding: 24px 0 21px;
     }
     .copyright{
         padding-top: 9px;
     }
+
 }
 
 @media (max-width: 645px) {
@@ -460,10 +459,6 @@
     }
     .intro_wrapper {
         margin-top: 135px;
-    }
-
-    .intro_item {
-        margin-top: 62px;
     }
 
     .title {
@@ -663,11 +658,6 @@
         margin-top: 32px;
         width: 100%;
         flex-wrap: wrap;
-    }
-    .intro_item{
-        width: 100%;
-        margin-top: 120px;
-
     }
     .intro_title{
         margin-bottom: 27px;
@@ -900,10 +890,7 @@
     .intro{
         background-size: 50%;
     }
-    .intro_item{
-        margin-top: 100px;
 
-    }
     .intro_title{
         margin-bottom: 6px;
     }
