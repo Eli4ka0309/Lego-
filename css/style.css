@@ -104,20 +104,18 @@ button {
     background-image: url("/img/intro/bg.svg");
     background-size: 25vw;
     background-repeat: no-repeat;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 .intro_wrapper {
     width: 100%;
-    display: flex;
-    align-items: flex-end;
     position: relative;
+    margin-top: 145px;
 }
 
 .intro_inner {
-    width: 80%;
+    width: 65%;
     padding-left: 40px;
-    margin-top: 150px;
 }
 
 .intro_title {
@@ -129,22 +127,22 @@ button {
 }
 
 .title {
-    font-size: 148px;
+    font-size: 172px;
     font-family: 'Bebas Neue', cursive;
     color: #F94545;
 }
 
 .subtitle {
-    font-size: 38px;
+    font-size: 39px;
     font-family: 'Balsamiq Sans', cursive;
-    margin-left: 35px;
-    width: 50%;
+    margin-left: 27px;
+    width: 40%;
 }
 
 .text {
-    font-size: 22px;
+    font-size: 24px;
     font-family: 'Open Sans', sans-serif;
-    width: 80%;
+    width: 70%;
     margin-bottom: 50px;
     line-height: 1.3;
     position: relative;
@@ -183,8 +181,8 @@ button {
 .intro_rec_title {
     font-family: 'Balsamiq Sans', cursive;
     line-height: 1.5;
-    font-size: 21px;
-    margin-bottom: 15px;
+    font-size: 23px;
+    margin-bottom: 20px;
 }
 
 .intro_rec_card {
@@ -195,12 +193,13 @@ button {
 .intro_rec_link {
     text-decoration: none;
     color: black;
-    width: 100%;
-    height: 215px;
+    margin-right: 20px;
 }
 
 .rec_card_inner {
-    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px;
     box-shadow: 0.8em 0.5em 30px rgba(122, 122, 122, 0.49);
     border-radius: 20px;
     text-align: center;
@@ -214,22 +213,16 @@ button {
     background-color: rgba(122, 122, 122, 0.04);
 }
 
-.intro_moto {
-    width: 50%;
-}
-
 .intro_img {
-    display: block;
     position: absolute;
-    width: 632px;
-    right: -240px;
-    top: 88px;
+    width: 593px;
+    right: -197px;
+    top: -63px;
     transform: rotate(10deg);
     border-radius: 50%;
     background-image: radial-gradient(circle closest-corner at 50% 60%, #FC6F6F 50%, transparent 50%);
 
 }
-
 
 /*card************************************************************/
 .card {
@@ -243,43 +236,33 @@ button {
 
 .card_item {
     display: block;
-    margin-left: 30px;
+    margin-left: 16px;
     text-align: center;
     box-shadow: 0.8em 0.5em 30px rgba(122, 122, 122, 0.56);
     border-radius: 20px;
     background-color: white;
     width: 100%;
+    height: 100%;
+    padding: 10px 0;
 }
-.card_item:first-child{
-    margin: 0;
+
+.card_item:first-child {
+    margin-left: 0;
 }
 
 .card_title {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    height: 38px;
-    text-align: center;
-    line-height: 1.3;
-    font-style: normal;
-    padding: 20px 8px 0;
+    margin-bottom: 14px;
     font-weight: 600;
     z-index: 20;
-    position: relative;
-
-
 }
 
 .card_img {
-    position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 1;
-    padding: 39px 10px 9px;
-    width: 212px;
-    height: 200px;
+    width: 100%;
+    height: 124px;
     max-width: 100%;
-
+    padding: 13px 5px;
 }
 
 .sale_price {
@@ -287,10 +270,7 @@ button {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 18px;
-    margin-top: -3px;
-    padding: 0 10px 5px;
-
-
+    padding-left: 10px;
 }
 
 .sale_price .last {
@@ -314,9 +294,9 @@ button {
 .past_price {
     position: absolute;
     right: -25px;
-    bottom: 30px;
+    bottom: 25px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
     text-decoration: line-through;
 }
@@ -325,9 +305,7 @@ button {
     display: flex;
     align-content: center;
     justify-content: center;
-    padding: 0 5px;
-
-
+    align-items: center;
 }
 
 
@@ -352,7 +330,6 @@ button {
     width: 100%;
     height: 2px;
     background-color: #F94545;
-    margin: 1px auto 15px;
     transition: opacity 0.2s linear;
     z-index: 10;
 }
@@ -412,7 +389,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 45px;
+    margin-bottom: 29px;
 
 }
 
@@ -449,7 +426,7 @@ select {
 
 .content {
     display: flex;
-    padding-top: 90px;
+    margin-bottom: 60px;
 }
 
 .content_inner {
@@ -514,8 +491,7 @@ select {
     border-radius: 50px;
     font-size: 16px;
     padding: 10px 15px;
-    background: #FFFAFA;
-
+    background-color: #FFFAFA;
     background-position: 155px 5px;
     background-repeat: no-repeat;
     background-size: 15%;
@@ -554,9 +530,7 @@ select {
     font-size: 14px;
     padding-left: 0;
     text-align: left;
-    line-height: 1.8;
     position: relative;
-    width: 50%;
     padding-top: 10px;
 
 }
@@ -573,27 +547,6 @@ select {
     color: #F94545;
     transition: 0.2s;
 
-}
-
-.last {
-    right: 5px;
-}
-
-.nav_link .dot:before {
-    content: '';
-    display: block;
-    border: solid 2px red;
-    border-radius: 50%;
-    width: 3%;
-    height: 3px;
-    margin: 3px;
-    position: absolute;
-    right: 39px;
-
-}
-
-.nav_link .last:before {
-    right: 29px;
 }
 
 .nav_text {
@@ -613,7 +566,7 @@ select {
 /*sale***************************************************/
 .sale {
     width: 100%;
-    padding-top: 73px;
+    margin-bottom: 60px;
 }
 
 .sale_inner {
@@ -623,12 +576,11 @@ select {
 .sale_subtitle {
     position: absolute;
     right: 0;
-    z-index: 1;
+    top: 24px;
+    z-index: 10;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    padding: 4px 15px;
-    margin: 12px 0;
-
+    padding: 8px 14px;
     background: #FDFEB8;
     font-weight: 600;
     border-radius: 50px 0 0 50px;
@@ -659,6 +611,7 @@ select {
     height: 100%;
     display: block;
     margin: 7px;
+    padding: 10px 0;
     text-align: center;
     box-shadow: 0.8em 0.5em 30px rgb(122 122 122 / 56%);
     border-radius: 20px;
@@ -666,16 +619,10 @@ select {
     width: 23.5%;
 }
 
-.catalog_inner {
-    padding-top: 20px;
-
-}
-
 .catalog_btm {
     margin: 40px auto 0;
     display: flex;
     justify-content: center;
-    padding-bottom: 80px;
 }
 
 .catalog_btm_link {
@@ -692,6 +639,7 @@ select {
 .catalog_btm_link:hover {
     transition: 0.2s;
     background-color: rgba(229, 212, 13, 0.84);
+    border: #ffffff solid 2px;
 
 }
 
@@ -706,7 +654,8 @@ select {
     background-color: #9A3838;
     position: relative;
 }
-.footer_inner{
+
+.footer_inner {
     padding: 35px 0 15px;
 }
 
@@ -726,10 +675,11 @@ select {
     color: white;
     letter-spacing: 0.06em;
     align-items: center;
-    margin: 0 10px;
+    margin-left: 20px;
 
 }
-.copyright{
+
+.copyright {
     font-size: 11px;
 
 }
