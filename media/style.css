@@ -533,15 +533,6 @@
     }
 
     /*card********/
-    .card_title {
-    }
-
-
-    .card_inner {
-        margin: 10px 5px;
-
-
-    }
 
     .sale_subtitle {
         top: 26px;
@@ -555,6 +546,10 @@
     .normal_price {
         font-size: 11px;
         margin-left: 4px;
+    }
+    .card_img {
+        height: 83px;
+        padding: 5px 5px;
     }
 
     .card_link {
@@ -609,8 +604,14 @@
     .intro {
         background-size: 50%;
     }
+    .intro_wrapper{
+        margin-top: 101px;
+    }
 
     /*header**************/
+    .header_inner{
+        margin-top: 16px;
+    }
     .header_logo_content {
         width: 63px;
     }
@@ -624,7 +625,7 @@
         position: absolute;
         top: 100%;
         right: 0;
-        background-color: #fff0f0;
+        background-color: #f6e2e1;
     }
 
     .header_nav {
@@ -632,13 +633,15 @@
     }
 
     .nav-toggle {
-        display: block;
         opacity: 1;
+    }
+    i {
+        font-size: 14px;
     }
 
     /*intro*/
     .intro_wrapper {
-        margin-top: 32px;
+        margin-top: 100px;
         width: 100%;
         flex-wrap: wrap;
     }
@@ -699,7 +702,8 @@
     }
 
     .intro_rec_link {
-        width: 60%;
+        width: 80%;
+        margin: 0 0 10px 0;
     }
 
     .intro_rec_title {
@@ -725,9 +729,11 @@
     }
 
     .card_inner {
-        margin: 0 0 10px;
         justify-content: space-evenly;
         padding: 0 10px 0;
+    }
+    .card_img{
+        height: 136px;
     }
 
     .card_link {
@@ -737,6 +743,7 @@
     .card_link:after {
         height: 2px;
     }
+
 
     .sale_subtitle {
         top: 32px;
@@ -843,15 +850,14 @@
 
     /*catalog*/
     .catalog_item {
-        width: 49%;
-        margin: 5px 0;
+        width: 47%;
+        margin: 5px ;
     }
 
     /*footer*/
     .footer_list {
         display: flex;
-        justify-content: flex-start;
-        flex-wrap: wrap;
+        justify-content: center;
         line-height: 2;
     }
 

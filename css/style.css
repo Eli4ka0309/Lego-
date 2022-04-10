@@ -32,8 +32,16 @@ body {
     right: 0;
     z-index: 1000;
 }
-
+.header-fixed{
+    position: fixed;
+    background: #f6e2e2;
+}
 .header_inner {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
@@ -93,10 +101,45 @@ body {
     opacity: 1;
     color: rgba(0, 0, 0, 0.07);
 }
+.nav-toggle{
+    width: 25px;
+    position: absolute;
+    padding: 15px 0;
+    right: 0;
+    z-index: 1;
 
-button {
-    display: none;
 }
+.naw-toggle_item{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    margin: auto;
+}
+.naw-toggle_item:before,
+.naw-toggle_item:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: black;
+}
+.naw-toggle_item:after {
+    top: -7px;
+
+}
+.naw-toggle_item:before {
+    top: 7px;
+
+}
+
 
 /*intro***************************************************************/
 .intro {
@@ -199,7 +242,7 @@ button {
 .rec_card_inner {
     width: 100%;
     height: 100%;
-    padding: 10px 0px;
+    padding: 10px 0;
     box-shadow: 0.8em 0.5em 30px rgba(122, 122, 122, 0.49);
     border-radius: 20px;
     text-align: center;
@@ -665,6 +708,7 @@ select {
 
 .footer_list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
