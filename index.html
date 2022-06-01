@@ -17,19 +17,19 @@
 <header class="header header-fixed">
     <div class="container">
         <div class="header_inner">
-            <a href="#" rel="main">
-                <img src="icon/header_logo/logo.svg" class="header_logo_content">
+            <a href="index.html" rel="main">
+                <img src="icon/header_logo/logo.svg" class="header_logo_content" alt="logo">
             </a>
             <nav class="header_nav">
-                <a href="#" class="header_nav_link">Главная</a>
-                <a href="#" class="header_nav_link">Каталог</a>
-                <a href="#" class="header_nav_link">О нас</a>
-                <a href="#" class="header_nav_link">Скидки</a>
+                <a href="#" class="header_nav_link">Home</a>
+                <a href="#" class="header_nav_link">Catalog</a>
+                <a href="about.html" class="header_nav_link">About Us</a>
+                <a href="#" class="header_nav_link">Discounts</a>
                 <a href="#" class="header_nav_link">+375 (29) 654-89-43</a>
                 <a href="#" class="header_nav_link"><i class="fas fa-shopping-cart"></i></a>
                 <a href="#" class="header_nav_link"><i class="fas fa-search"></i></a>
             </nav>
-            <div class="nav-toggle" >
+            <div class="nav-toggle">
                 <span class="naw-toggle_item"></span>
             </div>
         </div>
@@ -43,43 +43,43 @@
                     <div class="intro_item">
                         <div class="intro_title">
                             <h1 class="title">LEGO</h1>
-                            <h2 class="subtitle">На любой вкус и цвет</h2>
+                            <h2 class="subtitle">For every taste and color</h2>
                         </div>
                         <div class="intro_text">
-                            <p class="text">Здесь вы можете купить не только целые наборы, но и отдельные детали и
-                                фигурки!</p>
-                            <a href="#" rel="Перейти в каталог" class="button">Перейти в каталог</a>
+                            <p class="text">Here you can buy not only whole sets, but also individual parts and
+                                figures!</p>
+                            <a href="#" rel="Перейти в Catalog" class="button">Go to catalog</a>
                         </div>
                     </div>
 
                     <div class="intro_rec">
-                        <p class="intro_rec_title">Мы рекомендуем</p>
+                        <p class="intro_rec_title">We recommend</p>
                         <div class="intro_rec_card">
                             <a href="#" class="intro_rec_link">
                                 <div class="rec_card_inner">
-                                    <p class="card_title">Ограбление полицейского трака</p>
-                                    <img class="card_img" src="img/intro/intro_card_1.svg">
+                                    <p class="card_title">Police truck robbery</p>
+                                    <img class="card_img" src="img/intro/intro_card_1.svg" alt="card_1">
                                     <p class="sale_price ">15 $</p>
                                 </div>
                             </a>
                             <a href="#" class="intro_rec_link">
                                 <div class="rec_card_inner">
                                     <p class="card_title">Ford Mustang Shelby® GT500®</p>
-                                    <img class="card_img" src="img/intro/intro_card_2.svg">
+                                    <img class="card_img" src="img/intro/intro_card_2.svg" alt="card_2">
                                     <p class="sale_price ">55 $</p>
                                 </div>
                             </a>
                             <a href="#" class="intro_rec_link">
                                 <div class="rec_card_inner">
-                                    <p class="card_title">Разнообразные кубики Lego</p>
-                                    <img class="card_img" src="img/intro/intro_card_3.svg">
-                                    <p class="sale_price last">12 $/кг</p>
+                                    <p class="card_title">Various Lego blocks</p>
+                                    <img class="card_img" src="img/intro/intro_card_3.svg" alt="intro_card">
+                                    <p class="sale_price last">12 $/kg</p>
                                 </div>
                             </a>
                         </div>
                     </div>
                 </div>
-                <img src="img/intro/intro_moto.svg" class="intro_img">
+                <img src="img/intro/intro_moto.svg" class="intro_img" alt="intro_moto">
             </div>
         </div>
     </section> <!--intro---------------->
@@ -88,30 +88,32 @@
             <div class="content">
                 <div class="content_form">
                     <form class="form_catalog mob">
-                        <select name="Тематика">
-                            <optgoup>
-                                <option value="Тематика">Сортировать по</option>
-                                <option value="Город">Город</option>
-                                <option value="Городские службы">Городские службы</option>
-                                <option value="Арктика">Арктикав</option>
-                                <option value="Авиация">Авиация</option>
-                                <option value="Водная">Водная</option>
-                                <option value="Военная">Военная</option>
-                                <option value="Строительная техника">Строительная техника</option>
-                                <option value="Праздники">Праздники</option>
-                            </optgoup>
-                            <optgoup>
-                                <option disabled value="Категории">Категории</option>
-                                <option value="По размеру">По размеру</option>
-                                <option value="По цене">По цене</option>
-                                <option value="Для девочек">Для девочек</option>
-                                <option value="Транспорт">Транспорт</option>
-                                <option value="Здание">Здание</option>
-                                <option value="Отдельные детали">Отдельные детали</option>
-                                <option value="Отдельные фигурки">Отдельные фигурки</option>
-                                <option value="Природа">Природа</option>
-                            </optgoup>
-                        </select>
+                        <label>
+                            <select name="Тематика">
+                                <optgoup>
+                                    <option value="Тематика">Sort by</option>
+                                    <option value="Город">City</option>
+                                    <option value="Городские службы">City Services</option>
+                                    <option value="Арктика">Arctic</option>
+                                    <option value="Авиация">Aviation</option>
+                                    <option value="Водная">Water</option>
+                                    <option value="Военная">Military</option>
+                                    <option value="Строительная техника">Construction machinery</option>
+                                    <option value="Праздники">Holidays</option>
+                                </optgoup>
+                                <optgoup>
+                                    <option disabled value="Категории">Categories</option>
+                                    <option value="По размеру">To size</option>
+                                    <option value="По цене">By price</option>
+                                    <option value="Для девочек">For girls</option>
+                                    <option value="Транспорт">Transport</option>
+                                    <option value="Здание">Building</option>
+                                    <option value="Отдельные детали">Individual parts</option>
+                                    <option value="Отдельные фигурки">Individual figurines</option>
+                                    <option value="Природа">Nature</option>
+                                </optgoup>
+                            </select>
+                        </label>
                     </form>
                     <div class="search search_mob">
                         <form class="search_form">
@@ -122,70 +124,70 @@
                     </div>
                 </div>
                 <aside class="nav">
-                    <div class="nav_title">Категории</div>
+                    <div class="nav_title">Categories</div>
                     <div class="nav_item">
                         <a href="#" class="nav_link">
-                            <div class="nav_text">По размеру</div>
+                            <div class="nav_text">To size</div>
                         </a>
                         <a href="#" class="nav_link">
-                            <div class="nav_text">По цене</div>
+                            <div class="nav_text">By price</div>
                         </a>
                         <a href="#" class="nav_link">
-                            <div class="nav_text">Для девочек</div>
+                            <div class="nav_text">For girls</div>
                         </a>
                         <a href="#" class="nav_link">
-                            <div class="nav_text">Транспорт</div>
+                            <div class="nav_text">Transport</div>
                         </a>
                         <a href="#" class="nav_link">
-                            <div class="nav_text">Здание</div>
+                            <div class="nav_text">Building</div>
                         </a>
                         <a href="#" class="nav_link">
-                            <div class="nav_text dot">Отдельные детали</div>
+                            <div class="nav_text dot">Individual parts</div>
                         </a>
                         <a href="#" class="nav_link">
-                            <div class="nav_text dot last">Отдельные фигурки</div>
+                            <div class="nav_text dot last">Individual figurines</div>
                         </a>
                         <a href="#" class="nav_link">
-                            <div class="nav_text">Природа</div>
+                            <div class="nav_text">Nature</div>
                         </a>
                     </div>
                 </aside><!--aside--------------->
                 <div class="content_inner">
                     <div class="section_header">
-                        <p class="section_tittle">Последние поступления</p>
+                        <p class="section_tittle">Latest arrivals</p>
                         <div class="search">
                             <form class="search_form">
                                 <label>
-                                    <input class="input" alt="" type="text" placeholder="Поиск...">
+                                    <input class="input" alt="" type="text" placeholder="Search...">
                                 </label>
                             </form>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card_item">
-                            <p class="card_title">Итальянский коттедж</p>
+                            <p class="card_title">Italian cottage</p>
                             <img class="card_img" src="img/card/latest_entry/Italian_cottage_1.svg" alt="#">
                             <div class="card_inner">
                                 <a href="#" class="card_link">
-                                    <div class="card_btm">Узнать больше</div>
+                                    <div class="card_btm">To learn more</div>
                                 </a>
                             </div>
                         </div>
                         <div class="card_item">
-                            <p class="card_title">Зал Хогвардса</p>
+                            <p class="card_title">Hogwarts hall</p>
                             <img class="card_img" src="img/card/latest_entry/Hogwarts_hall_2.svg" alt="#">
                             <div class="card_inner">
                                 <a href="#" class="card_link">
-                                    <div class="card_btm">Узнать больше</div>
+                                    <div class="card_btm">To learn more</div>
                                 </a>
                             </div>
                         </div>
                         <div class="card_item">
-                            <p class="card_title">Штаб-квартира агентов</p>
+                            <p class="card_title">Agent Headquarters</p>
                             <img class="card_img" src="img/card/latest_entry/Ultra_agents_3.svg" alt="#">
                             <div class="card_inner">
                                 <a href="#" class="card_link">
-                                    <div class="card_btm">Узнать больше</div>
+                                    <div class="card_btm">To learn more</div>
                                 </a>
                             </div>
                         </div>
@@ -199,68 +201,68 @@
         <div class="container">
             <div class="content">
                 <aside class="nav">
-                    <div class="nav_title">Тематика</div>
+                    <div class="nav_title">Subject</div>
 
                     <ul class="nav_item">
                         <a href="#" class="nav_link">
-                            <li class="nav_text">Город</li>
+                            <li class="nav_text">City</li>
                         </a>
                         <a href="#" class="nav_link">
-                            <li class="nav_text">Городские службы</li>
+                            <li class="nav_text">City Services</li>
                         </a>
                         <a href="#" class="nav_link">
-                            <li class="nav_text">Арктика</li>
+                            <li class="nav_text">Arctic</li>
                         </a>
                         <a href="#" class="nav_link">
-                            <li class="nav_text">Авиация</li>
+                            <li class="nav_text">Aviation</li>
                         </a>
                         <a href="#" class="nav_link">
-                            <li class="nav_text">Водная</li>
+                            <li class="nav_text">Water</li>
                         </a>
                         <a href="#" class="nav_link">
-                            <li class="nav_text">Военная</li>
+                            <li class="nav_text">Military</li>
                         </a>
                         <a href="#" class="nav_link">
-                            <li class="nav_text">Строительная техника</li>
+                            <li class="nav_text">Construction machinery</li>
                         </a>
                         <a href="#" class="nav_link">
-                            <li class="nav_text">Праздники</li>
+                            <li class="nav_text">Holidays</li>
                         </a>
                         <a href="#" class="nav_link more">
-                            <li class="nav_text">Еще</li>
+                            <li class="nav_text">More</li>
                         </a>
                     </ul>
                 </aside><!--nav--------------->
                 <div class="content_inner">
                     <div class="section_header">
-                        <p class="section_tittle">Популярное</p>
-                        <a href="#" class="content_subtitle">Больше товаров</a>
+                        <p class="section_tittle">Popular</p>
+                        <a href="#" class="content_subtitle">More items</a>
                     </div>
                     <div class="card">
                         <div class="card_item">
-                            <p class="card_title">Британский кукурузник</p>
+                            <p class="card_title">british maize</p>
                             <img class="card_img" src="img/card/popular/british_maize_1.svg" alt="#">
                             <div class="card_inner">
                                 <a href="#" class="card_link">
-                                    <div class="card_btm">Узнать больше</div>
+                                    <div class="card_btm">To learn more</div>
                                 </a>
                             </div>
                         </div>
                         <div class="card_item">
-                            <p class="card_title">Звездолет</p>
+                            <p class="card_title">Starship</p>
                             <img class="card_img" src="img/card/popular/starship_2.svg" alt="#">
                             <div class="card_inner">
                                 <a href="#" class="card_link">
-                                    <div class="card_btm">Узнать больше</div>
+                                    <div class="card_btm">To learn more</div>
                                 </a>
                             </div>
                         </div>
                         <div class="card_item">
-                            <p class="card_title">Бэтмобиль</p>
+                            <p class="card_title">Batmobile</p>
                             <img class="card_img" src="img/card/popular/Batmobile_3.svg" alt="#">
                             <div class="card_inner">
                                 <a href="#" class="card_link">
-                                    <div class="card_btm">Узнать больше</div>
+                                    <div class="card_btm">To learn more</div>
                                 </a>
                             </div>
                         </div>
@@ -273,21 +275,21 @@
         <div class="container">
             <div class="content_inner sale">
                 <div class="section_header">
-                    <p class="section_tittle">Скидки</p>
-                    <a href="#" class="content_subtitle">Больше товаров</a>
+                    <p class="section_tittle">Discounts</p>
+                    <a href="#" class="content_subtitle">More items</a>
                 </div>
                 <div class="card sale_card">
                     <div class="card_item card_sale">
                         <div class="sale_inner">
-                            <p class="card_title">Автовоз</p>
+                            <p class="card_title">Car transporter</p>
                             <div class="sale_subtitle">-40%</div>
                         </div>
                         <img class="card_img" src="img/card/sale/car_transporter_1.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
-                            <a href="#" class="cart">В корозину</a>
+                            <a href="#" class="cart">Add to cart</a>
                             <div class="prise_inner">
                                 <div class="sale_price">15 $</div>
                                 <div class="past_price">21 $</div>
@@ -296,15 +298,15 @@
                     </div>
                     <div class="card_item card_sale">
                         <div class="sale_inner">
-                            <p class="card_title">Колизей</p>
+                            <p class="card_title">Coliseum</p>
                             <div class="sale_subtitle">-60%</div>
                         </div>
                         <img class="card_img" src="img/card/sale/starship_2.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
-                            <a href="#" class="cart">В корозину</a>
+                            <a href="#" class="cart">Add to cart</a>
                             <div class="prise_inner">
                                 <div class="sale_price">94 $</div>
                                 <div class="past_price">65 $</div>
@@ -313,15 +315,15 @@
                     </div>
                     <div class="card_item card_sale">
                         <div class="sale_inner">
-                            <p class="card_title">Шаттл</p>
+                            <p class="card_title">Shuttle</p>
                             <div class="sale_subtitle">-30%</div>
                         </div>
                         <img class="card_img" src="img/card/sale/Batmobile_3.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
-                            <a href="#" class="cart">В корозину</a>
+                            <a href="#" class="cart">Add to cart</a>
                             <div class="prise_inner">
                                 <div class="sale_price">65 $</div>
                                 <div class="past_price">134 $</div>
@@ -336,283 +338,285 @@
         <div class="container">
             <div class="content_inner sale">
                 <div class="section_header">
-                    <p class="section_tittle">Каталог</p>
+                    <p class="section_tittle">Catalog</p>
                     <form class="form_catalog">
-                        <select name="Популярности">
-                            <option value="Популярности">По популярности</option>
-                            <option value="Популярности">По цене</option>
-                            <option value="Популярности">Для девочек</option>
-                            <option value="Популярности">Для мальчиков</option>
-                            <option value="Популярности">Новинки</option>
-                        </select>
+                        <label>
+                            <select name="Популярности">
+                                <option value="Популярности">Popularity</option>
+                                <option value="Популярности">By price</option>
+                                <option value="Популярности">For girls</option>
+                                <option value="Популярности">For boys</option>
+                                <option value="Популярности">New</option>
+                            </select>
+                        </label>
                     </form>
                 </div>
                 <div class="catalog_card">
                     <div class=" catalog_item">
-                        <p class="card_title">Ракета</p>
+                        <p class="card_title">Rocket</p>
                         <img class="card_img" src="img/card/catalog/1.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
                         <div class="sale_inner">
-                            <p class="card_title">Магазин</p>
+                            <p class="card_title">Score</p>
                             <div class="sale_subtitle ">-70%</div>
                         </div>
                         <img class="card_img" src="img/card/catalog/2.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="sale_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">База мстителей</p>
+                        <p class="card_title">Avengers base</p>
                         <img class="card_img" src="img/card/catalog/3.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Пожарная машина</p>
+                        <p class="card_title">Fire engine</p>
                         <img class="card_img" src="img/card/catalog/4.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
                         <div class="sale_inner">
-                            <p class="card_title">Автовоз</p>
+                            <p class="card_title">Car transporter</p>
                             <div class="sale_subtitle">-20%</div>
                         </div>
                         <img class="card_img" src="img/card/catalog/5.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="sale_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Вертолёт дэдпула</p>
+                        <p class="card_title">Deadpool helicopter</p>
                         <img class="card_img" src="img/card/catalog/6.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price ">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Шагающий  вездеход</p>
+                        <p class="card_title">Walking all-terrain vehicle</p>
                         <img class="card_img" src="img/card/catalog/7.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
                         <div class="sale_inner">
-                            <p class="card_title">Бэтмобиль</p>
+                            <p class="card_title">Batmobile</p>
                             <div class="sale_subtitle ">-70%</div>
                         </div>
                         <img class="card_img" src="img/card/catalog/8.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="sale_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Отпуск</p>
+                        <p class="card_title">Vacation</p>
                         <img class="card_img" src="img/card/catalog/9.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
 
                     <div class="catalog_item">
-                        <p class="card_title">Истребитель</p>
+                        <p class="card_title">Fighter</p>
                         <img class="card_img" src="img/card/catalog/10.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Гоночный грузовик</p>
+                        <p class="card_title">Racing truck</p>
                         <img class="card_img" src="img/card/catalog/11.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Звездолет марвел</p>
+                        <p class="card_title">Marvel starship</p>
                         <img class="card_img" src="img/card/catalog/12.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
                         <div class="sale_inner">
-                            <p class="card_title">Магазин</p>
+                            <p class="card_title">Score</p>
                             <div class="sale_subtitle">-70%</div>
                         </div>
                         <img class="card_img" src="img/card/catalog/13.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="sale_price ">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
                         <div class="sale_inner">
-                            <p class="card_title">Автовоз</p>
+                            <p class="card_title">Car transporter</p>
                             <div class="sale_subtitle">-10%</div>
                         </div>
                         <img class="card_img" src="img/card/catalog/14.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="sale_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Зона 51</p>
+                        <p class="card_title">Zone 51</p>
                         <img class="card_img" src="img/card/catalog/15.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Галактический титан</p>
+                        <p class="card_title">Galactic titan</p>
                         <img class="card_img" src="img/card/catalog/16.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Пожарная машина</p>
+                        <p class="card_title">Fire engine</p>
                         <img class="card_img" src="img/card/catalog/17.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Фигурки спецназа</p>
+                        <p class="card_title">Special forces figures</p>
                         <img class="card_img" src="img/card/catalog/18.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Метро</p>
+                        <p class="card_title">Underground</p>
                         <img class="card_img" src="img/card/catalog/19.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Спутник</p>
+                        <p class="card_title">Satellite</p>
                         <img class="card_img" src="img/card/catalog/20.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
                         <div class="sale_inner">
-                            <p class="card_title">Милый дом</p>
+                            <p class="card_title">Sweet home</p>
                             <div class="sale_subtitle">-45%</div>
                         </div>
                         <img class="card_img" src="img/card/catalog/21.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="sale_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Пикник</p>
+                        <p class="card_title">Picnic</p>
                         <img class="card_img" src="img/card/catalog/22.svg" alt="#">
                         <div class="card_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
                         <div class="sale_inner">
-                            <p class="card_title">Строительный кран</p>
+                            <p class="card_title">Construction crane</p>
                             <div class="sale_subtitle">-35%</div>
                         </div>
                         <img class="card_img" src="img/card/catalog/23.svg" alt="#">
                         <div class="card_inner catalog_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="sale_price">15 $</div>
                         </div>
                     </div>
                     <div class="catalog_item">
-                        <p class="card_title">Шахматы</p>
+                        <p class="card_title">Chess</p>
                         <img class="card_img" src="img/card/catalog/24.svg" alt="#">
                         <div class="card_inner catalog_inner catalog_inner">
                             <a href="#" class="card_link">
-                                <div class="card_btm">Узнать больше</div>
+                                <div class="card_btm">To learn more</div>
                             </a>
                             <div class="normal_price">15 $</div>
                         </div>
                     </div>
                 </div><!--catalog_card--------------->
                 <div class="catalog_btm">
-                    <a href="#" rel="Перейти в каталог" class="catalog_btm_link">Больше товаров</a>
+                    <a href="#" rel="Перейти в Catalog" class="catalog_btm_link">More items</a>
                 </div>
             </div><!--card--------------->
         </div>
@@ -624,41 +628,41 @@
             <div class="footer_item">
                 <ul class="footer_list">
                     <a href="#" class="footer_link">
-                        <li>Оформить доставку</li>
+                        <li>Arrange delivery</li>
                     </a>
                     <a href="#" class="footer_link">
-                        <li>Возврат товара</li>
+                        <li>Purchase returns</li>
                     </a>
                     <a href="#" class="footer_link">
-                        <li>Возврат денежных средств</li>
+                        <li>Refunds</li>
                     </a>
                     <a href="#" class="footer_link">
-                        <li>Способы оплаты</li>
+                        <li>Payment Methods</li>
                     </a>
                     <a href="#" class="footer_link">
-                        <li>Вопрос/ответ</li>
+                        <li>Question/answer</li>
                     </a>
                     <a href="#" class="footer_link">
-                        <li>Техподдержка</li>
+                        <li>Support</li>
                     </a>
                 </ul>
             </div>
             <div class="footer_item">
                 <ul class="footer_list">
-                    <a href="#" class="footer_link">
-                        <li>О нас</li>
+                    <a href="about.html" class="footer_link">
+                        <li>About Us</li>
                     </a>
                     <a href="#" class="footer_link">
-                        <li>Отзывы</li>
+                        <li>Reviews</li>
                     </a>
                     <a href="#" class="footer_link">
-                        <li>Скидки</li>
+                        <li>Discounts</li>
                     </a>
                     <a href="#" class="footer_link">
-                        <li>Стать продавцом</li>
+                        <li>Become a seller</li>
                     </a>
                     <a href="#" class="footer_link">
-                        <li>Правообладателям</li>
+                        <li>Copyright holders</li>
                     </a>
                     <a href="mailto:LegoAllTheWorld@gmail.com" class="footer_link">
                         <li>LegoAllTheWorld@gmail.com</li>
@@ -680,7 +684,7 @@
                     </a>
                 </ul>
             </div>
-            <div class="copyright">©Все права защищены</div>
+            <div class="copyright">©All rights reserved</div>
         </div>
     </div>
 </footer>

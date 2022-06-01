@@ -101,7 +101,8 @@
         margin-left: 16px;
 
     }
-    .card_img{
+
+    .card_img {
         height: 116px;
         padding: 12px 10px;
     }
@@ -221,7 +222,8 @@
     .card_item {
         margin-left: 5px;
     }
-    .card_img{
+
+    .card_img {
         width: 183px;
 
     }
@@ -308,10 +310,11 @@
     }
 
     /*catalog*********************/
-    .catalog_item{
+    .catalog_item {
         margin: 10px 5px 0;
         width: 22.5%;
     }
+
     .catalog_btm_link {
         padding: 6px 27px;
         font-size: 13px;
@@ -362,6 +365,7 @@
         background-size: 35%;
         min-height: 90vh;
     }
+
     .intro_wrapper {
         margin-top: 73px;
     }
@@ -420,11 +424,13 @@
         top: 29px;
         font-size: 11px;
     }
+
     /*footer*/
     .footer_link {
         margin-left: 10px;
         font-size: 7px;
     }
+
     .footer_inner {
         padding: 24px 0 21px;
     }
@@ -438,9 +444,10 @@
 
 @media (max-width: 645px) {
     /*header*/
-    .header_inner{
+    .header_inner {
         padding: 0;
     }
+
     .header_logo_content {
         width: 49px;
     }
@@ -467,6 +474,7 @@
         font-size: 21px;
         margin-left: 12px;
     }
+
     .intro_inner {
         width: 100%;
     }
@@ -492,6 +500,7 @@
     .intro_rec_title {
         font-size: 17px;
     }
+
     /*content******/
     .content_subtitle {
         font-size: 10px;
@@ -533,7 +542,6 @@
     }
 
     /*card********/
-
     .sale_subtitle {
         top: 26px;
         font-size: 9px;
@@ -547,6 +555,7 @@
         font-size: 11px;
         margin-left: 4px;
     }
+
     .card_img {
         height: 83px;
         padding: 5px 5px;
@@ -604,14 +613,16 @@
     .intro {
         background-size: 50%;
     }
-    .intro_wrapper{
+
+    .intro_wrapper {
         margin-top: 101px;
     }
 
     /*header**************/
-    .header_inner{
+    .header_inner {
         margin-top: 16px;
     }
+
     .header_logo_content {
         width: 63px;
     }
@@ -620,6 +631,7 @@
         font-size: 14px;
         margin: 13px;
     }
+
     /*nav******/
     .header_nav {
         position: absolute;
@@ -635,6 +647,7 @@
     .nav-toggle {
         opacity: 1;
     }
+
     i {
         font-size: 14px;
     }
@@ -732,7 +745,8 @@
         justify-content: space-evenly;
         padding: 0 10px 0;
     }
-    .card_img{
+
+    .card_img {
         height: 136px;
     }
 
@@ -851,7 +865,7 @@
     /*catalog*/
     .catalog_item {
         width: 47%;
-        margin: 5px ;
+        margin: 5px;
     }
 
     /*footer*/
