@@ -1,3 +1,36 @@
-body {
-  background: #9A3838;
+.section_about {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.about_content {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.75);
+  margin-bottom: 10px;
+  line-height: 1.4;
 }
