@@ -1,3 +1,6 @@
+@media (max-width: ) {
+    
+}
 @media (max-width: 1270px) {
     .intro_wrapper {
         margin-top: 179px;
@@ -20,10 +23,6 @@
         padding-top: 15px;
     }
 
-    i {
-        font-size: 14px;
-    }
-
 }
 
 @media (max-width: 1130px) {
@@ -36,10 +35,6 @@
     .header_nav_link {
         font-size: 15px;
         margin-left: 32px;
-    }
-
-    i {
-        font-size: 18px;
     }
 
     /*intro**********************/
@@ -164,11 +159,6 @@
     .footer_item {
         margin-bottom: 10px;
     }
-
-    i {
-        font-size: 14px;
-    }
-
 }
 
 /*card**********************/
@@ -182,10 +172,6 @@
     .header_nav_link {
         font-size: 12px;
         margin-left: 23px;
-    }
-
-    i {
-        font-size: 14px;
     }
 
     /*intro*********************/
@@ -331,10 +317,6 @@
 
     .footer_link {
         font-size: 9px;
-    }
-
-    i {
-        font-size: 10px;
     }
 
     .copyright {
@@ -598,9 +580,6 @@
         font-size: 8px;
     }
 
-    i {
-        font-size: 9px;
-    }
 
     .copyright {
         padding-top: 10px;
@@ -648,9 +627,6 @@
         opacity: 1;
     }
 
-    i {
-        font-size: 14px;
-    }
 
     /*intro*/
     .intro_wrapper {

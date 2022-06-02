@@ -1,0 +1,154 @@
+.container_singin {
+    display: flex;
+    justify-content: center;
+}
+
+
+.section_singin {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.singin_inner {
+    width: 300px;
+    background: #fdf1f1;
+    padding: 68px 46px;
+    box-shadow: 0 0.5em 50px rgb(122 122 122 / 49%);
+    border-radius: 35px;
+
+
+}
+
+.form_singin {
+    width: 100%;
+    display: block;
+
+
+}
+
+.singin_title {
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+    color: #F94545;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.singin_name,
+.singin_number,
+.singin_button {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.frfr {
+    color: #FBFD82;
+}
+
+.singin_button {
+    margin: 0;
+}
+
+.input_item {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #f64343;
+    background: transparent;
+    padding: 0 5px 5px 5px;
+    font-size: 17px;
+
+}
+
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #fdf1f1 inset;
+}
+
+.input_btn {
+    font-weight: bold;
+    padding: 10px 26px;
+    font-size: 16px;
+    border: 2px solid black;
+    outline: 2px solid rgba(255, 255, 0, 0.89);
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-shadow: 0.5em 0.5em 30px -5px rgb(122 122 122 / 37%);
+    color: #F94545;
+}
+
+.or {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.singin_social {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.sing_in_google,
+.sing_in_telegram,
+.sing_in_facebook,
+.sing_in_twitter {
+    display: block;
+    background-image: radial-gradient(circle closest-corner at 50% 50%, #F94545 58%, transparent 50%);
+    border-radius: 50px;
+}
+
+.sing_in_google {
+    margin: 0;
+}
+
+.fa-google,
+.fa-telegram,
+.fa-facebook,
+.fa-twitter {
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fa-google:hover {
+    background-image: radial-gradient(circle closest-corner at 50% 50%, #ffffff 58%, transparent 50%);
+    color: #424202;
+    border: 2px solid #fdf1f1;
+    border-radius: 50px;
+}
+
+.fa-telegram:hover {
+    background-image: radial-gradient(circle closest-corner at 50% 50%, #ffffff 58%, transparent 50%);
+    color: #424202;
+    border: 2px solid #fdf1f1;
+    border-radius: 50px;
+
+}
+
+.fa-facebook:hover {
+    background-image: radial-gradient(circle closest-corner at 50% 50%, #ffffff 58%, transparent 50%);
+    color: #424202;
+    border: 2px solid #fdf1f1;
+    border-radius: 50px;
+
+}
+
+.fa-twitter:hover {
+    background-image: radial-gradient(circle closest-corner at 50% 50%, #ffffff 58%, transparent 50%);
+    color: #424202;
+    border: 2px solid #fdf1f1;
+    border-radius: 50px;
+
+}
