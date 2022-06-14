@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>LegoREAL/Sing in</title>
+    <title>LegoREAL</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Bebas+Neue&family=Kaushan+Script&family=Open+Sans:wght@400;600&display=swap"
           rel="stylesheet">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="main/css/style.css">
     <link rel="stylesheet" href="media/style.css">
     <link rel="stylesheet" href="reset/reset.css">
-    <link rel="stylesheet" href="sing_in/css/sing_in.css">
+
 </head>
 <body>
 <header class="header header-fixed">
@@ -35,48 +35,35 @@
         </div>
     </div>
 </header> <!--header-------------->
-
-<section class="section_singin">
-    <div class="container container_singin">
-        <div class="singin_inner">
-            <form class="form_singin">
-                <div class="singin_title">
-                    <p>Login</p>
+<main>
+    <section class="section">
+        <div class="container">
+            <div class="card_open">
+                <a href="#" class="">
+                    <span class="card_back">Назад</span>
+                </a>
+                <div class="card_open_inner">
+                    <img class="card_open_inner_img" src="main/img/card/latest_entry/Italian_cottage_1.svg"
+                         alt="eee" width="500" height="500">
+                    <div class="card_open_item">
+                        <h2 class="card_open_title">Italian cottage</h2>
+                        <p class="card_open_subtitle">Lego house, consists of 1300 parts, you can collect it day and
+                            night, adults and children will like it</p>
+                        <div class="card_open_price">64$</div>
+                        <div class="card_open_button">
+                            <button type="button" name="button" class="Add_to_cart">Add to shopping cart</button>
+                        </div>
+                        <div class="card_open_button">
+                            <button type="button" name="button" class="Fast_buy">Fast buy</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="singin_name">
-                    <label class="frfr">
-                        <input type="text" placeholder="Name" name="name" class="input_item">
-                    </label>
-                </div>
-                <div class="singin_number">
-                    <label>
-                        <input type="tel" placeholder="Tel." name="tel" class="input_item">
-                    </label>
-                </div>
-                <div class="singin_button">
-                    <button type="button" name="button" class="input_btn">Sing in</button>
-                </div>
-                <div class="or">Or</div>
-
-                <div class="singin_social">
-                    <a href="#" class="sing_in_google">
-                        <i class="fa fa-google fa-1g"></i>
-                    </a>
-                    <a href="#" class="sing_in_telegram">
-                        <i class="fa fa-telegram fa-1g"></i>
-                    </a>
-                    <a href="#" class="sing_in_facebook">
-                        <i class="fa fa-facebook fa-1g"></i>
-                    </a>
-                    <a href="#" class="sing_in_twitter">
-                        <i class="fa fa-twitter fa-1g"></i>
-                    </a>
-                </div>
-            </form>
+            </div>
         </div>
-    </div>
-</section>
-<footer class="footer">
+    </section>
+</main>
+
+<footer>
     <div class="container">
         <div class="footer_inner">
             <div class="footer_item">
@@ -141,7 +128,6 @@
             <div class="copyright">©All rights reserved</div>
         </div>
     </div>
-</footer><!--footer-------------->
-
+</footer>
 </body>
 </html>

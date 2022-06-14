@@ -1,9 +1,10 @@
-@media (max-width: ) {
-    
-}
 @media (max-width: 1270px) {
     .intro_wrapper {
         margin-top: 179px;
+    }
+    .intro_inner{
+        max-width: 735px;
+
     }
 
     /*Ноут L*/
@@ -81,16 +82,11 @@
     }
 
     .intro_img {
-        width: 581px;
-        right: -187px;
-        top: -26px;
+        max-width: 585px;
+
     }
 
     /*section**********************/
-    .section {
-        margin-bottom: 30px;
-    }
-
     /*card**********************/
     .card_item {
         margin-left: 16px;
@@ -130,7 +126,7 @@
     /*catalog**********************/
     .catalog_item {
         margin: 20px 10px 0;
-        width: 21.5%;
+        width: 30.5%;
     }
 
     .catalog_btm {
@@ -175,6 +171,9 @@
     }
 
     /*intro*********************/
+    .intro{
+        padding: 74px 0 69px;
+    }
     .subtitle {
         font-size: 30px;
         margin-left: 11px;
@@ -199,9 +198,9 @@
     }
 
     .intro_img {
-        width: 484px;
-        right: -175px;
-        top: -1px;
+        max-width: 474px;
+        right: -100px;
+        top: 39px;
     }
 
     /*card*********************/
@@ -298,7 +297,6 @@
     /*catalog*********************/
     .catalog_item {
         margin: 10px 5px 0;
-        width: 22.5%;
     }
 
     .catalog_btm_link {
@@ -442,6 +440,8 @@
     /*intro********/
     .intro {
         background-size: 40%;
+        padding: 74px 0 69px;
+
     }
 
     .intro_wrapper {
