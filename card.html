@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="main/css/style.css">
     <link rel="stylesheet" href="media/style.css">
     <link rel="stylesheet" href="reset/reset.css">
+    <link rel="stylesheet" href="card_open/css/card_open.css">
+
 
 </head>
 <body>
@@ -35,29 +37,95 @@
         </div>
     </div>
 </header> <!--header-------------->
-<main>
+<main class="main">
     <section class="section">
         <div class="container">
             <div class="card_open">
-                <a href="#" class="">
-                    <span class="card_back">Назад</span>
+                <a href="index.html" class="card_back">
+                    <i class="fa fa-arrow-left"></i>
+                    <span class="card_back_link">Назад</span>
                 </a>
                 <div class="card_open_inner">
                     <img class="card_open_inner_img" src="main/img/card/latest_entry/Italian_cottage_1.svg"
-                         alt="eee" width="500" height="500">
+                         alt="eee" width="700" height="700">
                     <div class="card_open_item">
                         <h2 class="card_open_title">Italian cottage</h2>
                         <p class="card_open_subtitle">Lego house, consists of 1300 parts, you can collect it day and
                             night, adults and children will like it</p>
                         <div class="card_open_price">64$</div>
                         <div class="card_open_button">
-                            <button type="button" name="button" class="Add_to_cart">Add to shopping cart</button>
+                            <button type="button" name="button" class="add_to_cart">Add to shopping cart</button>
                         </div>
                         <div class="card_open_button">
-                            <button type="button" name="button" class="Fast_buy">Fast buy</button>
+                            <button type="button" name="button" class="fast_buy">Fast buy</button>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section_propositions ">
+        <div class="container">
+            <div class="propositions">
+                <p class="section_tittle">Propositions</p>
+                <a href="#" rel="prev" class="arrow_prev"></a>
+                <a href="#" rel="next" class="arrow_next"></a>
+                <ul class="card sale_card">
+                    <li class="card_item card_sale">
+                        <div class="sale_inner">
+                            <p class="card_title">Car transporter</p>
+                            <div class="sale_subtitle">-40%</div>
+                        </div>
+                        <img class="card_img" src="main/img/card/sale/Batmobile_3.svg" alt="#" width="200"
+                             height="150">
+                        <div class="card_inner catalog_inner">
+                            <a href="#" class="card_link">
+                                <div class="card_btm">To learn more</div>
+                            </a>
+                            <a href="#" class="cart">Add to cart</a>
+                            <div class="prise_inner">
+                                <div class="sale_price">15 $</div>
+                                <div class="past_price">21 $</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card_item card_sale">
+                        <div class="sale_inner">
+                            <p class="card_title">Coliseum</p>
+                            <div class="sale_subtitle">-60%</div>
+                        </div>
+                        <img class="card_img" src="main/img/card/sale/starship_2.svg" alt="#" width="200" height="150">
+                        <div class="card_inner catalog_inner">
+                            <a href="#" class="card_link">
+                                <div class="card_btm">To learn more</div>
+                            </a>
+                            <a href="#" class="cart">Add to cart</a>
+                            <div class="prise_inner">
+                                <div class="sale_price">94 $</div>
+                                <div class="past_price">65 $</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card_item card_sale">
+                        <div class="sale_inner">
+                            <p class="card_title">Shuttle</p>
+                            <div class="sale_subtitle">-30%</div>
+                        </div>
+                        <img class="card_img" src="main/img/card/sale/Batmobile_3.svg" alt="#" width="200" height="150">
+                        <div class="card_inner catalog_inner">
+                            <a href="#" class="card_link">
+                                <div class="card_btm">To learn more</div>
+                            </a>
+                            <a href="#" class="cart">Add to cart</a>
+                            <div class="prise_inner">
+                                <div class="sale_price">65 $</div>
+                                <div class="past_price">134 $</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul><!--card--------------->
+
+
             </div>
         </div>
     </section>
