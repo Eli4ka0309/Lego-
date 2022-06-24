@@ -1,6 +1,6 @@
 
 body {
-    margin: 0;
+    margin: 0 auto;
     width: 100vw;
     height: 100vh;
     font-size: 14px;
@@ -636,7 +636,7 @@ select {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     padding: 10px 20px;
-    background: #FDFEB8;
+    background: #fbfd82;
     font-weight: 600;
     border-radius: 50px 0 0 50px;
 }
