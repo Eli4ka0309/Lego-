@@ -1,0 +1,24 @@
+.section_cart-title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 26px;
+}
+
+.cart_inner {
+  background: #fdf1f1;
+}
+
+.cart_header {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 22px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr (3fr)[3] 1fr;
+  grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+}
+
+.cart_header__name {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+}
