@@ -36,3 +36,24 @@ a {
     outline: 0;
     outline-offset: 0;
 }
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+input, textarea, button, select {
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+}
+
+img {
+    vertical-align: top;
+}
