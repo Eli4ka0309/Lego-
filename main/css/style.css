@@ -9,7 +9,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
-
+li{
+    display: block;
+}
 /*.container***************************************************************/
 .container {
     margin: 0 auto;
